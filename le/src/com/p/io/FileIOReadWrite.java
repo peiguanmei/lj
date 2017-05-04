@@ -2,10 +2,7 @@ package com.p.io;
 
 import org.junit.Test;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 /**
  * Created by p on 2017/4/5.
@@ -46,6 +43,25 @@ public class FileIOReadWrite {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void FileWriteTest() throws IOException {
+        File file = new File("D:/project/Write");
+        Writer fw = new FileWriter(file);
+        String str = "hello,world!!";
+        fw.write(str);
+        //fw.close();
+
+        Reader in = new FileReader(file);
+        char[] b = new char[1024];
+        int i = in.read(b);
+        in.close();
+        if (i == -1) {
+            System.out.println("write file no date");
+        }else {
+            System.out.println(b);
         }
     }
 }
