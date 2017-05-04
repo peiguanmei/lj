@@ -7,7 +7,7 @@ import java.util.*;
 /**
  * Created by p on 2017/5/4.
  */
-public class RedisUtils {
+public class RedisTest {
     public static void main(String[] args) {
         Jedis jedis = new Jedis("localhost");
         //System.out.println("connection to server successfully");
