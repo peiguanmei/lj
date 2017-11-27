@@ -44,6 +44,7 @@ public class TestEquals {
         System.out.println(i04 == i02);
     }
 
+    @Test
     public void TestInteger2() {
         int i = 128;
         Integer i2 = 128;
@@ -52,13 +53,15 @@ public class TestEquals {
         System.out.println(i == i2);
         System.out.println(i == i3);
         System.out.println("**************");
+
         Integer i5 = 127;//java在编译的时候,被翻译成-> Integer i5 = Integer.valueOf(127);
         Integer i6 = 127;
         System.out.println(i5 == i6);//true
-        /*Integer i5 = 128;
-        Integer i6 = 128;
-        System.out.println(i5 == i6);//false
-*/
+
+        Integer i5s = 128;
+        Integer i6s = 128;
+        System.out.println(i5s == i6s);//false
+
         Integer ii5 = new Integer(127);
         System.out.println(i5 == ii5); //false
         Integer i7 = new Integer(128);
