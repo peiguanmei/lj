@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.p</groupId>
-    <artifactId>c</artifactId>
+    <artifactId>leetcode</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>c</name>
+    <name>leetcode</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
