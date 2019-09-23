@@ -1,11 +1,11 @@
 package com.p.c.designpatterntutorialtest;
 
-import cn.byhieg.designpatterntutorial.builder.SimpleDialog;
+import com.p.c.designpatterntutorial.builder.SimpleDialog;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2017/5/7.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class SimpleDialogTest extends TestCase {
 

@@ -1,14 +1,14 @@
 package com.p.c.threadtutorialtest.char02test;
 
-import cn.byhieg.threadtutorial.char02.CommonUtils;
-import cn.byhieg.threadtutorial.char02.LongTimeServiceThreadA;
-import cn.byhieg.threadtutorial.char02.LongTimeServiceThreadB;
-import cn.byhieg.threadtutorial.char02.LongTimeTask;
+import com.p.c.threadtutorial.char02.CommonUtils;
+import com.p.c.threadtutorial.char02.LongTimeServiceThreadA;
+import com.p.c.threadtutorial.char02.LongTimeServiceThreadB;
+import com.p.c.threadtutorial.char02.LongTimeTask;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2017/1/3.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class LongTimeServiceThreadATest extends TestCase {
 

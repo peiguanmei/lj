@@ -1,11 +1,11 @@
 package com.p.c.threadtutorialtest.char01test;
 
-import cn.byhieg.threadtutorial.char01.ExampleThread;
+import com.p.c.threadtutorial.char01.ExampleThread;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2016/12/27.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class ExampleThreadTest extends TestCase {
 

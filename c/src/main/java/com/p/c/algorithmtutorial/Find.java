@@ -2,7 +2,7 @@ package com.p.c.algorithmtutorial;
 
 /**
  * Created by shiqifeng on 2017/3/29.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class Find {
 

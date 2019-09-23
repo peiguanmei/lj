@@ -1,13 +1,13 @@
 package com.p.c.threadtutorialtest.char02test;
 
-import cn.byhieg.threadtutorial.char02.SynBlockService;
-import cn.byhieg.threadtutorial.char02.SynBlockThreadA;
-import cn.byhieg.threadtutorial.char02.SynBlockThreadB;
+import com.p.c.threadtutorial.char02.SynBlockService;
+import com.p.c.threadtutorial.char02.SynBlockThreadA;
+import com.p.c.threadtutorial.char02.SynBlockThreadB;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/3.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/3.
+
  */
 public class SynBlockServiceTest extends TestCase {
     public void testSetUSernamePassword() throws Exception {

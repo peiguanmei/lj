@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Created by shiqifeng on 2017/1/10.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class MyList {
     public static List list = new ArrayList();

@@ -1,8 +1,8 @@
 package com.p.c.algorithmtutorial;
 
 /**
- * Created by byhieg on 17/3/30.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/3/30.
+
  */
 
 import java.util.LinkedList;

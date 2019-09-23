@@ -1,8 +1,8 @@
 package com.p.c.threadtutorial.char02;
 
 /**
- * Created by byhieg on 17/1/3.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/3.
+
  */
 public class MyOneListService {
 

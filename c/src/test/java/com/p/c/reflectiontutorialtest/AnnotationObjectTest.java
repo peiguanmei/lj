@@ -1,7 +1,7 @@
 package com.p.c.reflectiontutorialtest;
 
-import cn.byhieg.reflectiontutorial.AnnotationObject;
-import cn.byhieg.reflectiontutorial.MyAnnotation;
+import com.p.c.reflectiontutorial.AnnotationObject;
+import com.p.c.reflectiontutorial.MyAnnotation;
 import junit.framework.TestCase;
 
 import java.lang.annotation.Annotation;
@@ -9,8 +9,8 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
- * Created by byhieg on 17/1/9.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/9.
+
  */
 public class AnnotationObjectTest extends TestCase {
 

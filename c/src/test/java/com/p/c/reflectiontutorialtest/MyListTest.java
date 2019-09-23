@@ -1,11 +1,11 @@
 package com.p.c.reflectiontutorialtest;
 
-import cn.byhieg.reflectiontutorial.MyList;
+import com.p.c.reflectiontutorial.MyList;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/9.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/9.
+
  */
 public class MyListTest extends TestCase {
 

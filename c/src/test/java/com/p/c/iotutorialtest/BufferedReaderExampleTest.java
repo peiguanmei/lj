@@ -1,11 +1,11 @@
 package com.p.c.iotutorialtest;
 
-import cn.byhieg.iotutorial.charsetstreamio.BufferedReaderExample;
+import com.p.c.iotutorial.charsetstreamio.BufferedReaderExample;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2017/2/23.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class BufferedReaderExampleTest extends TestCase {
     public void testReadFromFile() throws Exception {

@@ -1,12 +1,12 @@
 package com.p.c.collectiontutorialtest;
 
-import cn.byhieg.collectiontutorial.listtutorial.ArrayListDemo;
+import com.p.c.collectiontutorial.listtutorial.ArrayListDemo;
 import junit.framework.TestCase;
 import java.util.Iterator;
 
 /**
- * Created by byhieg on 17/2/7.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/7.
+
  */
 public class ArrayListDemoTest extends TestCase {
 

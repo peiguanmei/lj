@@ -3,8 +3,8 @@ package com.p.c.reflectiontutorial;
 import java.lang.reflect.Array;
 
 /**
- * Created by byhieg on 17/1/10.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/10.
+
  */
 public class ArrayObject {
 

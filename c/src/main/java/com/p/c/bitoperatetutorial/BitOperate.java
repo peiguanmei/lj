@@ -1,8 +1,8 @@
 package com.p.c.bitoperatetutorial;
 
 /**
- * Created by byhieg on 2017/6/27.
- * Mail to byhieg@gmail.com
+ * Created by p on 2017/6/27.
+
  */
 public class BitOperate {
 

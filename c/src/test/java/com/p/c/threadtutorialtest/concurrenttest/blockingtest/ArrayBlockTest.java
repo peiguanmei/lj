@@ -1,13 +1,13 @@
 package com.p.c.threadtutorialtest.concurrenttest.blockingtest;
 
-import cn.byhieg.threadtutorial.concurrent.blocking.ArrayBlock;
-import cn.byhieg.threadtutorial.concurrent.blocking.Costumer;
-import cn.byhieg.threadtutorial.concurrent.blocking.Producer;
+import com.p.c.threadtutorial.concurrent.blocking.ArrayBlock;
+import com.p.c.threadtutorial.concurrent.blocking.Costumer;
+import com.p.c.threadtutorial.concurrent.blocking.Producer;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/5/3.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/5/3.
+
  */
 public class ArrayBlockTest extends TestCase {
     ArrayBlock block;

@@ -4,8 +4,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by byhieg on 17/1/27.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/27.
+
  */
 public class FairService {
     private Lock lock;

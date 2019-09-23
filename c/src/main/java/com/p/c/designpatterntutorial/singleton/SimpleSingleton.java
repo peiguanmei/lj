@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 该类线程不安全，是延迟加载的懒汉模式
  * Created by shiqifeng on 2017/3/14.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class SimpleSingleton implements Serializable {
 

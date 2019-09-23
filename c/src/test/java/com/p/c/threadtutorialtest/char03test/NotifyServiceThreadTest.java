@@ -1,13 +1,12 @@
 package com.p.c.threadtutorialtest.char03test;
 
-import cn.byhieg.threadtutorial.char03.NotifyServiceThread;
-import cn.byhieg.threadtutorial.char03.Service;
-import cn.byhieg.threadtutorial.char03.ServiceThread;
+import com.p.c.threadtutorial.char03.NotifyServiceThread;
+import com.p.c.threadtutorial.char03.ServiceThread;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2017/1/10.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class NotifyServiceThreadTest extends TestCase {
     public void testRun() throws Exception {

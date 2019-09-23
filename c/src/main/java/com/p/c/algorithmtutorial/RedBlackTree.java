@@ -1,8 +1,8 @@
 package com.p.c.algorithmtutorial;
 
 /**
- * Created by byhieg on 2017/6/24.
- * Mail to byhieg@gmail.com
+ * Created by p on 2017/6/24.
+
  */
 
 

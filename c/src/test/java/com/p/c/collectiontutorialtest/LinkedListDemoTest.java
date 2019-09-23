@@ -1,11 +1,11 @@
 package com.p.c.collectiontutorialtest;
 
-import cn.byhieg.collectiontutorial.listtutorial.LinkedListDemo;
+import com.p.c.collectiontutorial.listtutorial.LinkedListDemo;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/2/15.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/15.
+
  */
 public class LinkedListDemoTest extends TestCase {
 

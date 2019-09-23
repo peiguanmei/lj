@@ -5,8 +5,8 @@ import java.util.Queue;
 import java.util.Stack;
 
 /**
- * Created by byhieg on 17/4/15.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/4/15.
+
  */
 public class BinaryTree {
 

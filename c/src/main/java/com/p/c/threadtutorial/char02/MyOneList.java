@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by byhieg on 17/1/3.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/3.
+
  */
 public class MyOneList {
 

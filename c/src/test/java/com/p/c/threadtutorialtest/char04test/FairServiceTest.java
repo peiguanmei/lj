@@ -1,11 +1,11 @@
 package com.p.c.threadtutorialtest.char04test;
 
-import cn.byhieg.threadtutorial.char04.FairService;
+import com.p.c.threadtutorial.char04.FairService;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/27.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/27.
+
  */
 public class FairServiceTest extends TestCase {
     public void testServiceMethod() throws Exception {

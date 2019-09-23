@@ -3,8 +3,8 @@ package com.p.c.threadtutorial.concurrent.blocking;
 import java.util.concurrent.BlockingQueue;
 
 /**
- * Created by byhieg on 17/5/3.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/5/3.
+
  */
 public class Costumer extends Thread{
 

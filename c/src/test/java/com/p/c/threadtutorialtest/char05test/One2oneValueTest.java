@@ -1,12 +1,12 @@
 package com.p.c.threadtutorialtest.char05test;
 
-import cn.byhieg.threadtutorial.char05.one2one.value.Customer;
-import cn.byhieg.threadtutorial.char05.one2one.value.Producer;
+import com.p.c.threadtutorial.char05.one2one.value.Customer;
+import com.p.c.threadtutorial.char05.one2one.value.Producer;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/2/1.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/1.
+
  */
 public class One2oneValueTest extends TestCase {
 

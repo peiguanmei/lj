@@ -2,7 +2,7 @@ package com.p.c.designpatterntutorial.proxy.dynamicproxy;
 
 /**
  * Created by shiqifeng on 2017/3/17.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public interface Subject {
 

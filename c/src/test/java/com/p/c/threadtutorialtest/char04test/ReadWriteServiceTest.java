@@ -1,11 +1,11 @@
 package com.p.c.threadtutorialtest.char04test;
 
-import cn.byhieg.threadtutorial.char04.ReadWriteService;
+import com.p.c.threadtutorial.char04.ReadWriteService;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/28.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/28.
+
  */
 public class ReadWriteServiceTest extends TestCase {
     public void testRead() throws Exception {

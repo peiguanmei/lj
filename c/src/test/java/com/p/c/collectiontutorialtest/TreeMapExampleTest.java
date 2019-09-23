@@ -1,13 +1,13 @@
 package com.p.c.collectiontutorialtest;
 
-import cn.byhieg.collectiontutorial.maptutorial.TreeMapExample;
+import com.p.c.collectiontutorial.maptutorial.TreeMapExample;
 import junit.framework.TestCase;
 
 import java.util.TreeMap;
 
 /**
- * Created by byhieg on 17/2/25.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/25.
+
  */
 public class TreeMapExampleTest extends TestCase {
     TreeMapExample example = new TreeMapExample();

@@ -1,13 +1,13 @@
 package com.p.c.threadtutorialtest.char02test;
 
-import cn.byhieg.threadtutorial.char02.HasSelfPrivateNum;
-import cn.byhieg.threadtutorial.char02.SelfPrivateThreadA;
-import cn.byhieg.threadtutorial.char02.SelfPrivateThreadB;
+import com.p.c.threadtutorial.char02.HasSelfPrivateNum;
+import com.p.c.threadtutorial.char02.SelfPrivateThreadA;
+import com.p.c.threadtutorial.char02.SelfPrivateThreadB;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/1.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/1.
+
  */
 public class HasSelfPrivateNumTest extends TestCase {
     public void testAddI() throws Exception {

@@ -1,5 +1,5 @@
 之前已经说道，JVM提供了synchronized关键字来实现对变量的同步访问以及用wait和notify来实现线程间通信。在jdk1.5以后，JAVA提供了Lock类来实现和synchronized一样的功能，并且还提供了Condition来显示线程间通信。
-Lock类是Java类来提供的功能，丰富的api使得Lock类的同步功能比synchronized的同步更强大。本文章的所有代码均在[Lock类例子的代码](https://github.com/byhieg/JavaTutorial/tree/master/src/main/java/cn/byhieg/threadtutorial/char04)
+Lock类是Java类来提供的功能，丰富的api使得Lock类的同步功能比synchronized的同步更强大。本文章的所有代码均在[Lock类例子的代码](https://github.com/p/JavaTutorial/tree/master/src/main/java/cn/p/threadtutorial/char04)
 本文主要介绍一下内容：
 
 1. Lock类

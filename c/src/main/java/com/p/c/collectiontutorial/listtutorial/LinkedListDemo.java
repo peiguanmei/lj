@@ -3,8 +3,8 @@ package com.p.c.collectiontutorial.listtutorial;
 import java.util.LinkedList;
 
 /**
- * Created by byhieg on 17/2/15.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/15.
+
  */
 public class LinkedListDemo {
 

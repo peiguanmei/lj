@@ -6,8 +6,8 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 
 /**
- * Created by byhieg on 17/1/5.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/5.
+
  */
 public class ExceptionService {
 

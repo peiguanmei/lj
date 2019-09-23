@@ -1,6 +1,6 @@
 package com.p.c.reflectiontutorialtest;
 
-import cn.byhieg.reflectiontutorial.GenericObject;
+import com.p.c.reflectiontutorial.GenericObject;
 import junit.framework.TestCase;
 
 import java.lang.reflect.Field;
@@ -10,8 +10,8 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 /**
- * Created by byhieg on 17/1/9.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/9.
+
  */
 public class GenericObjectTest extends TestCase {
 

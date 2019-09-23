@@ -1,13 +1,13 @@
 package com.p.c.threadtutorialtest.char02test;
 
-import cn.byhieg.threadtutorial.char02.RunService;
-import cn.byhieg.threadtutorial.char02.SynVolaThreadA;
-import cn.byhieg.threadtutorial.char02.SynVolaThreadB;
+import com.p.c.threadtutorial.char02.RunService;
+import com.p.c.threadtutorial.char02.SynVolaThreadA;
+import com.p.c.threadtutorial.char02.SynVolaThreadB;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/5.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/5.
+
  */
 public class RunServiceTest extends TestCase {
     public void testRunMethod() throws Exception {

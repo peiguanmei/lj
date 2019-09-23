@@ -2,7 +2,7 @@ package com.p.c.threadtutorial.char01;
 
 /**
  * Created by shiqifeng on 2016/12/28.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class ExampleSuspendThread extends Thread{
 

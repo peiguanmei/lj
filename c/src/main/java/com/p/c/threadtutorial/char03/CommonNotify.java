@@ -1,8 +1,8 @@
 package com.p.c.threadtutorial.char03;
 
 /**
- * Created by byhieg on 17/1/15.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/15.
+
  */
 public class CommonNotify {
 

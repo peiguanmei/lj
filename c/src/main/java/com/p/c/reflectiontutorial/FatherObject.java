@@ -2,7 +2,7 @@ package com.p.c.reflectiontutorial;
 
 /**
  * Created by shiqifeng on 2017/1/9.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public abstract class FatherObject implements Runnable{
 

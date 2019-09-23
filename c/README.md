@@ -5,7 +5,7 @@ src包里面是Java的源码，test包里面是针对源码的测试
 ![Alt text](images/JavaTutorial目录.png)
 
 ## ThreadTutorial内容说明
-在源码路径下`cn.byhieg.threadtutorial`中放置的是Java多线程的代码和测试例子，在每一个章的包下，都有一个ReadMe来说明该章的知识点。
+在源码路径下`com.p.c.threadtutorial`中放置的是Java多线程的代码和测试例子，在每一个章的包下，都有一个ReadMe来说明该章的知识点。
 
 在char01包里放置Java多线程基本知识的代码。内容如下：
 
@@ -42,7 +42,7 @@ src包里面是Java的源码，test包里面是针对源码的测试
 3. 多对多 生产者/消费者
 
 ## ReflectionTutorial内容说明
-在源码路径下`cn.byhieg.reflectiontutorial`中放置的是Java反射的代码和测试例子，在每一个章的包下，都有一个ReadMe来说明该章的知识点。
+在源码路径下`com.p.c.reflectiontutorial`中放置的是Java反射的代码和测试例子，在每一个章的包下，都有一个ReadMe来说明该章的知识点。
 在包下面，不细分包，整个教程的讲解内容如下：
 Java通过反射获取如下内容：
 
@@ -56,7 +56,7 @@ Java通过反射获取如下内容：
 - 数组
 
 ## CollectionTutorial内容说明
-在源码路径下`cn.byhieg.collectiontutorial`中放置的是Java集合类的代码和测试例子。在每一个包里面，都有一个ReadMe来说明该章的知识点。
+在源码路径下`com.p.c.collectiontutorial`中放置的是Java集合类的代码和测试例子。在每一个包里面，都有一个ReadMe来说明该章的知识点。
 ListTutorial中的知识点有
 
 - ArrayList的使用
@@ -70,16 +70,16 @@ MapTutorial中的知识点有
 
 ## AnnotationTutorial内容说明
 
-在源码路径下`cn.byhieg.annotationtutorial`中放置的是Java注解类的代码和测试例子。在每一个包里面，都有一个ReadMe来说明该章的知识点。
+在源码路径下`com.p.c.annotationtutorial`中放置的是Java注解类的代码和测试例子。在每一个包里面，都有一个ReadMe来说明该章的知识点。
 
 
 ## IOTutorial内容说明
 
-在源码路径下`cn.byhieg.iotutorial`中放置的是Java io类的代码和测试例子。在每一个包里面，都有一个ReadMe来说明该章的知识点。
+在源码路径下`com.p.c.iotutorial`中放置的是Java io类的代码和测试例子。在每一个包里面，都有一个ReadMe来说明该章的知识点。
 
 ## DesignPattern内容说明
 
-在源码路径下`cn.byhieg.designpatterntutorial`中放置的是Java 设计模式的代码和测试的例子。目前有
+在源码路径下`com.p.c.designpatterntutorial`中放置的是Java 设计模式的代码和测试的例子。目前有
 
 - 代理模式
 - 单例模式
@@ -87,7 +87,7 @@ MapTutorial中的知识点有
 
 ## algorithmtutorial内容说明
 
-在源码路径下`cn.byhieg.algorithmtutorial`中放置的是Java实现的一些算法，内容如下：
+在源码路径下`com.p.c.algorithmtutorial`中放置的是Java实现的一些算法，内容如下：
 
 - 二叉搜索树
 - 二叉树的常见的算法

@@ -16,14 +16,14 @@ import java.io.Writer;
 import java.util.Set;
 
 /**
- * Created by byhieg on 17/2/14.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/14.
+
  */
 public class APTProcessor extends AbstractProcessor{
 
     //类名的前缀、后缀
     public static final String SUFFIX = "AutoGenerate";
-    public static final String PREFIX = "byhieg_";
+    public static final String PREFIX = "p_";
 
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {

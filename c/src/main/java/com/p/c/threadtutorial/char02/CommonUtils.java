@@ -2,7 +2,7 @@ package com.p.c.threadtutorial.char02;
 
 /**
  * Created by shiqifeng on 2017/1/3.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class CommonUtils {
 

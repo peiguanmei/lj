@@ -2,7 +2,7 @@ package com.p.c.designpatterntutorial.singleton;
 
 /**
  * Created by shiqifeng on 2017/3/14.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class HungrySingleton {
     private static final HungrySingleton singleton = new HungrySingleton();

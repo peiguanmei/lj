@@ -1,13 +1,13 @@
 package com.p.c.threadtutorialtest.char05test;
 
-import cn.byhieg.threadtutorial.char05.one2one.list.Customer;
-import cn.byhieg.threadtutorial.char05.one2one.list.MyQueue;
-import cn.byhieg.threadtutorial.char05.one2one.list.Producer;
+import com.p.c.threadtutorial.char05.one2one.list.Customer;
+import com.p.c.threadtutorial.char05.one2one.list.MyQueue;
+import com.p.c.threadtutorial.char05.one2one.list.Producer;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/2/1.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/1.
+
  */
 public class One2oneListTest extends TestCase{
 

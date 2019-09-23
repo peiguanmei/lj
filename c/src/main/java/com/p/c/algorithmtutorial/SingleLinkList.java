@@ -1,8 +1,8 @@
 package com.p.c.algorithmtutorial;
 
 /**
- * Created by byhieg on 17/5/2.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/5/2.
+
  */
 public class SingleLinkList {
 

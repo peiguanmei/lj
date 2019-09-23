@@ -1,12 +1,12 @@
 package com.p.c.collectiontutorialtest;
 
-import cn.byhieg.collectiontutorial.listtutorial.SimpleArrayList;
-import cn.byhieg.collectiontutorial.listtutorial.SimpleLinkedList;
+import com.p.c.collectiontutorial.listtutorial.SimpleArrayList;
+import com.p.c.collectiontutorial.listtutorial.SimpleLinkedList;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/2/15.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/15.
+
  */
 public class SimpleLinkedListTest extends TestCase {
     public void testAdd() throws Exception {
@@ -19,7 +19,7 @@ public class SimpleLinkedListTest extends TestCase {
 
     public void testGet() throws Exception {
         SimpleLinkedList<String> lists = new SimpleLinkedList<>();
-        lists.add("byhieg");
+        lists.add("p");
         System.out.println(lists.get(0));
     }
 

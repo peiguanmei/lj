@@ -1,8 +1,8 @@
 package com.p.c.annotationstutorial;
 
 /**
- * Created by byhieg on 17/2/14.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/14.
+
  */
 public class User {
 

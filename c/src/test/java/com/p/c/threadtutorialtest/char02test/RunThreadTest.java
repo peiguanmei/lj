@@ -1,11 +1,11 @@
 package com.p.c.threadtutorialtest.char02test;
 
-import cn.byhieg.threadtutorial.char02.RunThread;
+import com.p.c.threadtutorial.char02.RunThread;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/5.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/5.
+
  */
 public class RunThreadTest extends TestCase {
     public void testRun() throws Exception {

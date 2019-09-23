@@ -1,11 +1,11 @@
 package com.p.c.algorithmtutorialtest;
 
-import cn.byhieg.algorithmtutorial.GraphMatrix;
+import com.p.c.algorithmtutorial.GraphMatrix;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2017/4/5.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class GraphMatrixTest extends TestCase {
 

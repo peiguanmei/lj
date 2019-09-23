@@ -6,14 +6,14 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Created by byhieg on 17/2/14.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/14.
+
  */
 
 @Target({ElementType.FIELD,ElementType.TYPE,ElementType.METHOD})
 @Retention(RetentionPolicy.SOURCE)
 public @interface APTAnnotation {
-    String author() default "byhieg";
+    String author() default "p";
 
     String date();
 

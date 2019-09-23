@@ -1,11 +1,11 @@
 package com.p.c.threadtutorialtest.char03test;
 
-import cn.byhieg.threadtutorial.char03.SynService;
+import com.p.c.threadtutorial.char03.SynService;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/11.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/11.
+
  */
 public class SynServiceTest extends TestCase {
 

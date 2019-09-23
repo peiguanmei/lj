@@ -6,8 +6,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
 /**
- * Created by byhieg on 17/2/14.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/14.
+
  */
 public class AMethodProcess {
 

@@ -1,14 +1,12 @@
 package com.p.c.threadtutorialtest.char05test;
 
-import cn.byhieg.threadtutorial.char04.ThreadA;
-
-import cn.byhieg.threadtutorial.char05.more2more.value.Customer;
-import cn.byhieg.threadtutorial.char05.more2more.value.Producer;
+import com.p.c.threadtutorial.char05.more2more.value.Customer;
+import com.p.c.threadtutorial.char05.more2more.value.Producer;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/2/1.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/1.
+
  */
 public class More2moreValueTest extends TestCase{
     public void testValue() throws Exception {

@@ -1,11 +1,11 @@
 package com.p.c.threadtutorialtest.char02test;
 
-import cn.byhieg.threadtutorial.char02.ExceptionService;
+import com.p.c.threadtutorial.char02.ExceptionService;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/5.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/5.
+
  */
 public class ExceptionServiceTest extends TestCase {
 

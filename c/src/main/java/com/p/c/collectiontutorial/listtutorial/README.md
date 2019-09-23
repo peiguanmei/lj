@@ -16,7 +16,7 @@ ArrayList是Java集合框架中一个经典的实现类。他比起常用的数�
 -  remove方法
 -  sort方法
 
-这个简单的ArrayList类 取名为`SimpleArrayList`，全部的代码查看[SimpleArrayList代码](https://github.com/byhieg/JavaTutorial/tree/master/src/main/java/cn/byhieg/collectiontutorial/listtutorial)
+这个简单的ArrayList类 取名为`SimpleArrayList`，全部的代码查看[SimpleArrayList代码](https://github.com/p/JavaTutorial/tree/master/src/main/java/cn/p/collectiontutorial/listtutorial)
 
 ##  构造器
 
@@ -211,7 +211,7 @@ remove(Object o)和remove(int index)
 第二个remove方法不需要向第一个方法一样，需要告诉使用者要删除的下标对应的元素，只需要判断是否删除成功即可。如果要删除的元素在列表中，则删除成功，如果不在则失败。因此调用`contains`方法就可以判断是否要删除的元素在列表中。在则调用`remove(int index)`,不在则返回失败。
 
 ## 总结
-自此，一个简单的ArrayList就实现完了，实现的目的是为了弄清ArrayList动态数组的原理以及add与remove方法的内容实现。同时，也清楚了ArrayList最大的扩容空间就是Integer的最大值。该类的所有代码在[SimpleArrayList代码](https://github.com/byhieg/JavaTutorial/tree/master/src/main/java/cn/byhieg/collectiontutorial/listtutorial)
+自此，一个简单的ArrayList就实现完了，实现的目的是为了弄清ArrayList动态数组的原理以及add与remove方法的内容实现。同时，也清楚了ArrayList最大的扩容空间就是Integer的最大值。该类的所有代码在[SimpleArrayList代码](https://github.com/p/JavaTutorial/tree/master/src/main/java/cn/p/collectiontutorial/listtutorial)
 
 # 自己动手系列——实现一个简单的LinkedList
 
@@ -235,7 +235,7 @@ LinkedList与ArrayList都是List接口的具体实现类。LinkedList与ArrayLis
 - indexOf方法
 - remove方法
 
-与实现ArrayList的名字一样，为SimpleLinkedList。[源码地址](https://github.com/byhieg/JavaTutorial/blob/master/src/main/java/cn/byhieg/collectiontutorial/listtutorial/SimpleLinkedList.java)，欢迎star,fork
+与实现ArrayList的名字一样，为SimpleLinkedList。[源码地址](https://github.com/p/JavaTutorial/blob/master/src/main/java/cn/p/collectiontutorial/listtutorial/SimpleLinkedList.java)，欢迎star,fork
 
 
 ## 构建一个双向链表
@@ -485,7 +485,7 @@ remove另一个重载方法remove(Object o)，在实现了indexOf和deleteLink�
 获取该元素对应对应的下标，然后执行deleteLink方法，完成remove操作。
 
 ## 总结
-至此，一个功能简单的LinkedList就实现完成了，全部的代码可以看[源码地址](https://github.com/byhieg/JavaTutorial/blob/master/src/main/java/cn/byhieg/collectiontutorial/listtutorial/SimpleLinkedList.java)，欢迎star,fork。
+至此，一个功能简单的LinkedList就实现完成了，全部的代码可以看[源码地址](https://github.com/p/JavaTutorial/blob/master/src/main/java/cn/p/collectiontutorial/listtutorial/SimpleLinkedList.java)，欢迎star,fork。
 
 
 

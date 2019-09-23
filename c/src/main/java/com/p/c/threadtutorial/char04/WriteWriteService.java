@@ -3,8 +3,8 @@ package com.p.c.threadtutorial.char04;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * Created by byhieg on 17/1/28.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/28.
+
  */
 public class WriteWriteService {
     private ReentrantReadWriteLock lock = new ReentrantReadWriteLock();

@@ -1,8 +1,8 @@
 package com.p.c.threadtutorial.char02;
 
 /**
- * Created by byhieg on 17/1/1.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/1.
+
  */
 public class SelfPrivateThreadA  extends Thread{
     private HasSelfPrivateNum num;

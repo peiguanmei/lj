@@ -1,11 +1,11 @@
 package com.p.c.algorithmtutorialtest;
 
-import cn.byhieg.algorithmtutorial.Find;
+import com.p.c.algorithmtutorial.Find;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2017/3/29.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class FindTest extends TestCase {
     int[] nums;

@@ -5,7 +5,7 @@
 - 等待/通知机制
 - join方法的使用
 
-所有的代码均在[char03线程间通信](https://github.com/byhieg/JavaTutorial/tree/master/src/main/java/cn/byhieg/threadtutorial/char03)
+所有的代码均在[char03线程间通信](https://github.com/p/JavaTutorial/tree/master/src/main/java/cn/p/threadtutorial/char03)
 
 ## 等待/通知机制
 Java中对多线程类提供了两个方法来完成等待/通知机制，等待的方法是-`wait()`，通知的方法是`notify()`。先说一下什么是等待/通知机制，所谓等待/通知机制，就是线程A在执行的时候，需要一个其他线程来提供的结果，但是其他线程还没有告诉他这个结果是什么，于是线程A开始等待，当其他线程计算出结果之后就将结果通知给线程A，A线程唤醒，继续执行。这个过程就是等待/通知机制。
@@ -290,7 +290,7 @@ public class JoinThread extends Thread{
 
 ## 总结
 这里介绍了线程间通信的一种常见的方式——等待/通知机制。此外，还介绍了一种指定线程执行顺序的方法——join方法，并且讲解了其内部的实现。
-全部的代码都在[char03线程间通信](https://github.com/byhieg/JavaTutorial/tree/master/src/main/java/cn/byhieg/threadtutorial/char03)
+全部的代码都在[char03线程间通信](https://github.com/p/JavaTutorial/tree/master/src/main/java/cn/p/threadtutorial/char03)
 
 
 

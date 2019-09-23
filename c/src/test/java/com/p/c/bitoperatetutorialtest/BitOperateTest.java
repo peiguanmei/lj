@@ -1,11 +1,11 @@
 package com.p.c.bitoperatetutorialtest;
 
-import cn.byhieg.bitoperatetutorial.BitOperate;
+import com.p.c.bitoperatetutorial.BitOperate;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 2017/6/27.
- * Mail to byhieg@gmail.com
+ * Created by p on 2017/6/27.
+
  */
 public class BitOperateTest extends TestCase {
 

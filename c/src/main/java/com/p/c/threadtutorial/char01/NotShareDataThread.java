@@ -2,7 +2,7 @@ package com.p.c.threadtutorial.char01;
 
 /**
  * Created by shiqifeng on 2016/12/27.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class NotShareDataThread extends Thread{
 

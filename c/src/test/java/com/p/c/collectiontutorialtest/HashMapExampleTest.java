@@ -1,13 +1,13 @@
 package com.p.c.collectiontutorialtest;
 
-import cn.byhieg.collectiontutorial.maptutorial.HashMapExample;
+import com.p.c.collectiontutorial.maptutorial.HashMapExample;
 import junit.framework.TestCase;
 
 import java.util.Map;
 
 /**
- * Created by byhieg on 17/2/25.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/25.
+
  */
 public class HashMapExampleTest extends TestCase {
     HashMapExample example = new HashMapExample();

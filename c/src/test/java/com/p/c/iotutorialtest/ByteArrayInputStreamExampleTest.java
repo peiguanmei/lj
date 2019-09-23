@@ -1,11 +1,11 @@
 package com.p.c.iotutorialtest;
 
-import cn.byhieg.iotutorial.bytestreamio.ByteArrayInputStreamExample;
+import com.p.c.iotutorial.bytestreamio.ByteArrayInputStreamExample;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/2/21.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/21.
+
  */
 public class ByteArrayInputStreamExampleTest extends TestCase {
     public void testReadFromArray() throws Exception {

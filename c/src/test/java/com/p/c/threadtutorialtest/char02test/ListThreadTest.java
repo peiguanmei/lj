@@ -1,12 +1,12 @@
 package com.p.c.threadtutorialtest.char02test;
 
-import cn.byhieg.threadtutorial.char02.ListThread;
-import cn.byhieg.threadtutorial.char02.MyOneList;
+import com.p.c.threadtutorial.char02.ListThread;
+import com.p.c.threadtutorial.char02.MyOneList;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/3.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/3.
+
  */
 public class ListThreadTest extends TestCase {
     public void testRun() throws Exception {

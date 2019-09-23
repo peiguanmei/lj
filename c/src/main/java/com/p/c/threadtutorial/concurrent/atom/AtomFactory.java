@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * Created by shiqifeng on 2017/5/5.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class AtomFactory {
 

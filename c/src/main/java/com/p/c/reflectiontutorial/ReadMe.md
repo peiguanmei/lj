@@ -12,7 +12,7 @@ Java除了给我们提供在编译期得到类的各种信息之外，还通过�
 - 泛型
 - 数组
 
-本文也将从上面几个方面来介绍Java反射。本文涉及的所有代码均在[反射代码](https://github.com/byhieg/JavaTutorial/tree/master/src/main/java/cn/byhieg/reflectiontutorial)
+本文也将从上面几个方面来介绍Java反射。本文涉及的所有代码均在[反射代码](https://github.com/p/JavaTutorial/tree/master/src/main/java/cn/p/reflectiontutorial)
 首先放出一个Java类作为反射的研究对象，类的内容如下：
 ```
 public abstract class FatherObject implements Runnable{
@@ -23,7 +23,7 @@ public abstract class FatherObject implements Runnable{
 
 public class ExampleObject extends FatherObject{
     public int age = 30;
-    public String name = "byhieg";
+    public String name = "p";
     private Integer score = 60;
 
     public void printName(){
@@ -88,7 +88,7 @@ Class exampleObjectClass = ExampleObject.class;
 ```
 第二种，如果在编写代码的时候，不知道类的名字，但是在运行时的时候，可以得到一个类名的字符串，可以用如下的方式获取Class对象：
 ```
-Class exampleObjectClass = Class.forName("cn.byhieg.reflectiontutorial.ExampleObject");
+Class exampleObjectClass = Class.forName("com.p.c.reflectiontutorial.ExampleObject");
 ```
 注意，此方法需要有2个条件，第一，forName中的字符串必须是全限定名，第二，这个Class类必须在classpath的路径下面，因为该方法会抛出`ClassNotFoundException`的异常。
 
@@ -105,7 +105,7 @@ Class exampleObjectClass = Class.forName("cn.byhieg.reflectiontutorial.ExampleOb
 ```
 结果如下：
 ```
-cn.byhieg.reflectiontutorial.ExampleObject
+com.p.c.reflectiontutorial.ExampleObject
 ExampleObject
 ```
 
@@ -122,7 +122,7 @@ ExampleObject
 ```
 结果如下：
 ```
-package cn.byhieg.reflectiontutorial
+package com.p.c.reflectiontutorial
 FatherObject
 ```
 很显然，得到父类的返回值也是一个Class对象，那么可以利用这个对象得到父类的一些信息，比如判断父类是不是抽象类
@@ -165,9 +165,9 @@ Modifier.isVolatile(int modifiers);
 ```
 结果如下：
 ```
-public cn.byhieg.reflectiontutorial.ExampleObject(int,java.lang.Integer)
-public cn.byhieg.reflectiontutorial.ExampleObject(java.lang.String)
-public cn.byhieg.reflectiontutorial.ExampleObject()
+public com.p.c.reflectiontutorial.ExampleObject(int,java.lang.Integer)
+public com.p.c.reflectiontutorial.ExampleObject(java.lang.String)
+public com.p.c.reflectiontutorial.ExampleObject()
 ```
 如果，事先知道要访问的构造方法的参数类型，可以利用如下方法获取指定的构造方法，例子如下：
 ```
@@ -177,7 +177,7 @@ public cn.byhieg.reflectiontutorial.ExampleObject()
 结果显然是:
 
 ```
-public cn.byhieg.reflectiontutorial.ExampleObject(java.lang.String)
+public com.p.c.reflectiontutorial.ExampleObject(java.lang.String)
 ```
 还可以用如下方式得到另一个构造器
 ```
@@ -224,8 +224,8 @@ public cn.byhieg.reflectiontutorial.ExampleObject(java.lang.String)
 结果如下：
 
 ```
-变量为： public int cn.byhieg.reflectiontutorial.ExampleObject.age
-变量为： public java.lang.String cn.byhieg.reflectiontutorial.ExampleObject.name
+变量为： public int com.p.c.reflectiontutorial.ExampleObject.age
+变量为： public java.lang.String com.p.c.reflectiontutorial.ExampleObject.name
 ```
 很显然，得到的都是public的变量，上述的private的变量score，并没有得到。
 和构造器一样的得到方式一样，我们可以指定一个参数名，然后得到指定的变量：
@@ -236,7 +236,7 @@ public cn.byhieg.reflectiontutorial.ExampleObject(java.lang.String)
 上述的变量的toString方法得到的名字太长，Java对Field类提供了getName的方法，返回类中写的变量名字，上面的代码就可以改成field.getName()。
 反射不仅提供了得到变量的方法，还提供了设置变量值的方式。通过如下方法可以对一个动态生成的类，改变其变量值：
 ```
-    ExampleObject object = ((ExampleObject) constructor1.newInstance("byhieg"));
+    ExampleObject object = ((ExampleObject) constructor1.newInstance("p"));
         System.out.println("原先的age是 " + object.age);
         field.set(object,10);
         System.out.println("更改之后的age是" + object.age);
@@ -296,7 +296,7 @@ invoke第一个参数是这个对象，第二个参数是变长数组，传入�
 ## 注解
 先写一个包含注解的类：
 ```
-MyAnnotation(name="byhieg",value = "hello world")
+MyAnnotation(name="p",value = "hello world")
 public class AnnotationObject {
 
     @MyAnnotation(name="field",value = "变量")
@@ -337,7 +337,7 @@ Java给我们提供了在运行时获取类的注解信息，可以得到类注�
             }
         }
 ```
-上面的类注解使用Class对象调用`getAnnotations`得到的，方法注解和变量注解是一样的，分别用method对象与field对象调用`getDeclaredAnnotations`得到注解，没什么多说的。例子看[反射代码](https://github.com/byhieg/JavaTutorial/tree/master/src/main/java/cn/byhieg/reflectiontutorial)
+上面的类注解使用Class对象调用`getAnnotations`得到的，方法注解和变量注解是一样的，分别用method对象与field对象调用`getDeclaredAnnotations`得到注解，没什么多说的。例子看[反射代码](https://github.com/p/JavaTutorial/tree/master/src/main/java/cn/p/reflectiontutorial)
 参数注解是比较麻烦的一项，获取方式比较得到，第一步，先取得method对象，调用`getParameterAnnotations`，但是这个返回值是一个二维数组，因为method对象有很多参数，每个参数有可能有很多注解。例子如下：
 ```
  Method method1 = clz.getMethod("doOtherThing",String.class);
@@ -475,7 +475,7 @@ System.out.println(clz.getComponentType().getTypeName());
 结果为`int`
 
 ## 总结
-这次,关于反射的各种应用就到此为止，后续可能会有深入的知识讲解。具体的代码可以去看[反射代码](https://github.com/byhieg/JavaTutorial/tree/master/src/main/java/cn/byhieg/reflectiontutorial)
+这次,关于反射的各种应用就到此为止，后续可能会有深入的知识讲解。具体的代码可以去看[反射代码](https://github.com/p/JavaTutorial/tree/master/src/main/java/cn/p/reflectiontutorial)
 在src包里面是各种类，在test类里是对这些类的访问。
 
 
@@ -529,7 +529,7 @@ public abstract class FatherObject implements Runnable{
 
 public class ExampleObject extends FatherObject{
     public int age = 30;
-    public String name = "byhieg";
+    public String name = "p";
     private Integer score = 60;
 
     public void printName(){
@@ -592,7 +592,7 @@ Class对象
 Class exampleObjectClass = ExampleObject.class;
 第二种，如果在编写代码的时候，不知道类的名字，但是在运行时的时候，可以得到一个类名的字符串，可以用如下的方式获取Class对象：
 
-Class exampleObjectClass = Class.forName("cn.byhieg.reflectiontutorial.ExampleObject");
+Class exampleObjectClass = Class.forName("com.p.c.reflectiontutorial.ExampleObject");
 注意，此方法需要有2个条件，第一，forName中的字符串必须是全限定名，第二，这个Class类必须在classpath的路径下面，因为该方法会抛出ClassNotFoundException的异常。
 
 获取到这个Class对象之后，就可以得到类的各种信息，开头已经提及了一些信息，下面，说几个没提到的类的信息。
@@ -608,7 +608,7 @@ Class exampleObjectClass = Class.forName("cn.byhieg.reflectiontutorial.ExampleOb
    System.out.println(simpleClassName);
 结果如下：
 
-cn.byhieg.reflectiontutorial.ExampleObject
+com.p.c.reflectiontutorial.ExampleObject
 ExampleObject
 得到类的包名、父类和实现的接口
 
@@ -623,7 +623,7 @@ ExampleObject
     System.out.println(superClass.getSimpleName());
 结果如下：
 
-package cn.byhieg.reflectiontutorial
+package com.p.c.reflectiontutorial
 FatherObject
 很显然，得到父类的返回值也是一个Class对象，那么可以利用这个对象得到父类的一些信息，比如判断父类是不是抽象类
 
@@ -662,16 +662,16 @@ Modifier.isVolatile(int modifiers);
         }
 结果如下：
 
-public cn.byhieg.reflectiontutorial.ExampleObject(int,java.lang.Integer)
-public cn.byhieg.reflectiontutorial.ExampleObject(java.lang.String)
-public cn.byhieg.reflectiontutorial.ExampleObject()
+public com.p.c.reflectiontutorial.ExampleObject(int,java.lang.Integer)
+public com.p.c.reflectiontutorial.ExampleObject(java.lang.String)
+public com.p.c.reflectiontutorial.ExampleObject()
 如果，事先知道要访问的构造方法的参数类型，可以利用如下方法获取指定的构造方法，例子如下：
 
    Constructor constructor = exampleObjectClass.getConstructor(String.class);
    System.out.println(constructor.toString());
 结果显然是:
 
-public cn.byhieg.reflectiontutorial.ExampleObject(java.lang.String)
+public com.p.c.reflectiontutorial.ExampleObject(java.lang.String)
 还可以用如下方式得到另一个构造器
 
     Constructor constructor = exampleObjectClass.getConstructor(int.class,Integer.class);
@@ -712,8 +712,8 @@ public cn.byhieg.reflectiontutorial.ExampleObject(java.lang.String)
     }
 结果如下：
 
-变量为： public int cn.byhieg.reflectiontutorial.ExampleObject.age
-变量为： public java.lang.String cn.byhieg.reflectiontutorial.ExampleObject.name
+变量为： public int com.p.c.reflectiontutorial.ExampleObject.age
+变量为： public java.lang.String com.p.c.reflectiontutorial.ExampleObject.name
 很显然，得到的都是public的变量，上述的private的变量score，并没有得到。
 和构造器一样的得到方式一样，我们可以指定一个参数名，然后得到指定的变量：
 
@@ -722,7 +722,7 @@ public cn.byhieg.reflectiontutorial.ExampleObject(java.lang.String)
 上述的变量的toString方法得到的名字太长，Java对Field类提供了getName的方法，返回类中写的变量名字，上面的代码就可以改成field.getName()。
 反射不仅提供了得到变量的方法，还提供了设置变量值的方式。通过如下方法可以对一个动态生成的类，改变其变量值：
 
-    ExampleObject object = ((ExampleObject) constructor1.newInstance("byhieg"));
+    ExampleObject object = ((ExampleObject) constructor1.newInstance("p"));
         System.out.println("原先的age是 " + object.age);
         field.set(object,10);
         System.out.println("更改之后的age是" + object.age);
@@ -776,7 +776,7 @@ invoke第一个参数是这个对象，第二个参数是变长数组，传入�
 
 先写一个包含注解的类：
 
-MyAnnotation(name="byhieg",value = "hello world")
+MyAnnotation(name="p",value = "hello world")
 public class AnnotationObject {
 
     @MyAnnotation(name="field",value = "变量")

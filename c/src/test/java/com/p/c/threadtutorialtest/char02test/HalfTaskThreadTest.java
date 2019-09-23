@@ -1,12 +1,12 @@
 package com.p.c.threadtutorialtest.char02test;
 
-import cn.byhieg.threadtutorial.char02.HalfSynTask;
-import cn.byhieg.threadtutorial.char02.HalfTaskThread;
+import com.p.c.threadtutorial.char02.HalfSynTask;
+import com.p.c.threadtutorial.char02.HalfTaskThread;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2017/1/3.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class HalfTaskThreadTest extends TestCase {
     public void testRun() throws Exception {

@@ -1,8 +1,8 @@
 package com.p.c.threadtutorialtest.concurrenttest.atomtest;
 
-import cn.byhieg.threadtutorial.concurrent.atom.AtomFactory;
+import com.p.c.threadtutorial.concurrent.atom.AtomFactory;
 
-import cn.byhieg.threadtutorial.concurrent.atom.MyObject;
+import com.p.c.threadtutorial.concurrent.atom.MyObject;
 import junit.framework.TestCase;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * Created by shiqifeng on 2017/5/5.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class AtomFactoryTest extends TestCase {
     AtomicInteger integer;

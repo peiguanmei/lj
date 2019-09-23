@@ -1,14 +1,14 @@
 package com.p.c.threadtutorialtest.char04test;
 
-import cn.byhieg.threadtutorial.char04.MyConditionService;
+import com.p.c.threadtutorial.char04.MyConditionService;
 import junit.framework.TestCase;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by byhieg on 17/1/26.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/26.
+
  */
 public class MyConditionServiceTest extends TestCase {
 

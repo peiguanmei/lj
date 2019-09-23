@@ -1,13 +1,13 @@
 package com.p.c.collectiontutorialtest;
 
-import cn.byhieg.collectiontutorial.maptutorial.LinkedHashMapExample;
+import com.p.c.collectiontutorial.maptutorial.LinkedHashMapExample;
 import junit.framework.TestCase;
 
 import java.util.LinkedHashMap;
 
 /**
- * Created by byhieg on 17/2/25.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/25.
+
  */
 public class LinkedHashMapExampleTest extends TestCase {
     LinkedHashMapExample example = new LinkedHashMapExample();

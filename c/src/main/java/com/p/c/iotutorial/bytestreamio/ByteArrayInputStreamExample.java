@@ -3,8 +3,8 @@ package com.p.c.iotutorial.bytestreamio;
 import java.io.ByteArrayInputStream;
 
 /**
- * Created by byhieg on 17/2/21.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/21.
+
  */
 public class ByteArrayInputStreamExample {
 

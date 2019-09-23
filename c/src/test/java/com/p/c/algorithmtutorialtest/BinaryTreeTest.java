@@ -1,11 +1,11 @@
 package com.p.c.algorithmtutorialtest;
 
-import cn.byhieg.algorithmtutorial.BinaryTree;
+import com.p.c.algorithmtutorial.BinaryTree;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/4/15.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/4/15.
+
  */
 public class BinaryTreeTest extends TestCase {
 

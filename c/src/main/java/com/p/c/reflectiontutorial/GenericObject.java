@@ -3,8 +3,8 @@ package com.p.c.reflectiontutorial;
 import java.util.List;
 
 /**
- * Created by byhieg on 17/1/9.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/9.
+
  */
 public class GenericObject {
     public List<String> lists;

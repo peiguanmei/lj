@@ -1,6 +1,6 @@
 package com.p.c.iotutorialtest;
 
-import cn.byhieg.iotutorial.bytestreamio.FileOutputStreamExample;
+import com.p.c.iotutorial.bytestreamio.FileOutputStreamExample;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayOutputStream;
@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 
 /**
  * Created by shiqifeng on 2017/2/23.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class FileOutputStreamExampleTest extends TestCase {
     public void testWriteToFile() throws Exception {

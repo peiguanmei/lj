@@ -7,7 +7,7 @@ import java.io.Writer;
 
 /**
  * Created by shiqifeng on 2017/2/23.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class OutputStreamWriterExample {
 

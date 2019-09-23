@@ -1,11 +1,11 @@
 package com.p.c.algorithmtutorialtest;
 
-import cn.byhieg.algorithmtutorial.SingleLinkList;
+import com.p.c.algorithmtutorial.SingleLinkList;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/5/2.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/5/2.
+
  */
 public class SingleLinkListTest extends TestCase {
 

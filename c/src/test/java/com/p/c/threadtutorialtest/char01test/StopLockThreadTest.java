@@ -1,12 +1,12 @@
 package com.p.c.threadtutorialtest.char01test;
 
-import cn.byhieg.threadtutorial.char01.StopLockThread;
-import cn.byhieg.threadtutorial.char01.SynchronizedObject;
+import com.p.c.threadtutorial.char01.StopLockThread;
+import com.p.c.threadtutorial.char01.SynchronizedObject;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 16/12/28.
- * Mail to byhieg@gmail.com
+ * Created by p on 16/12/28.
+
  */
 public class StopLockThreadTest extends TestCase {
     public void testRun() throws Exception {

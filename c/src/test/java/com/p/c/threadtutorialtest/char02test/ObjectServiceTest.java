@@ -1,13 +1,13 @@
 package com.p.c.threadtutorialtest.char02test;
 
-import cn.byhieg.threadtutorial.char02.DoubleSynThreadA;
-import cn.byhieg.threadtutorial.char02.DoubleSynThreadB;
-import cn.byhieg.threadtutorial.char02.ObjectService;
+import com.p.c.threadtutorial.char02.DoubleSynThreadA;
+import com.p.c.threadtutorial.char02.DoubleSynThreadB;
+import com.p.c.threadtutorial.char02.ObjectService;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/3.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/3.
+
  */
 public class ObjectServiceTest extends TestCase {
     public void testServiceMethod() throws Exception {

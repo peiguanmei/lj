@@ -1,14 +1,14 @@
 package com.p.c.threadtutorialtest.char03test;
 
-import cn.byhieg.threadtutorial.char03.Add;
-import cn.byhieg.threadtutorial.char03.AddThread;
-import cn.byhieg.threadtutorial.char03.Subtract;
-import cn.byhieg.threadtutorial.char03.SubtractThread;
+import com.p.c.threadtutorial.char03.Add;
+import com.p.c.threadtutorial.char03.AddThread;
+import com.p.c.threadtutorial.char03.Subtract;
+import com.p.c.threadtutorial.char03.SubtractThread;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/11.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/11.
+
  */
 public class AddSubTest extends TestCase {
 

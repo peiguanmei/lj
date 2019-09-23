@@ -1,11 +1,11 @@
 package com.p.c.threadtutorialtest.char01test;
 
-import cn.byhieg.threadtutorial.char01.ExampleInterruptThread;
+import com.p.c.threadtutorial.char01.ExampleInterruptThread;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 16/12/27.
- * Mail to byhieg@gmail.com
+ * Created by p on 16/12/27.
+
  */
 public class ExampleInterruptThreadTest extends TestCase {
     public void testRun() throws Exception {

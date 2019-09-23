@@ -1,8 +1,8 @@
 package com.p.c.threadtutorial.char02;
 
 /**
- * Created by byhieg on 17/1/5.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/5.
+
  */
 public class VolatileThread extends Thread{
     volatile public static int count;

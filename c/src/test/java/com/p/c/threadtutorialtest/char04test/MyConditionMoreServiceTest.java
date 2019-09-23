@@ -1,13 +1,13 @@
 package com.p.c.threadtutorialtest.char04test;
 
-import cn.byhieg.threadtutorial.char04.MyConditionMoreService;
-import cn.byhieg.threadtutorial.char04.ThreadA;
-import cn.byhieg.threadtutorial.char04.ThreadB;
+import com.p.c.threadtutorial.char04.MyConditionMoreService;
+import com.p.c.threadtutorial.char04.ThreadA;
+import com.p.c.threadtutorial.char04.ThreadB;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/26.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/26.
+
  */
 public class MyConditionMoreServiceTest extends TestCase {
 

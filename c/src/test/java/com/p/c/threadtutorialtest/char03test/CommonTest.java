@@ -1,12 +1,12 @@
 package com.p.c.threadtutorialtest.char03test;
 
-import cn.byhieg.threadtutorial.char03.CommonNotify;
-import cn.byhieg.threadtutorial.char03.CommonWait;
+import com.p.c.threadtutorial.char03.CommonNotify;
+import com.p.c.threadtutorial.char03.CommonWait;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/1/15.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/15.
+
  */
 public class CommonTest extends TestCase{
 

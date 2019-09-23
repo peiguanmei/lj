@@ -1,11 +1,11 @@
 package com.p.c.collectiontutorialtest;
 
-import cn.byhieg.collectiontutorial.listtutorial.SimpleArrayList;
+import com.p.c.collectiontutorial.listtutorial.SimpleArrayList;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/2/7.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/7.
+
  */
 public class SimpleArrayListTest extends TestCase {
     public void testAdd() throws Exception {

@@ -1,6 +1,6 @@
 package com.p.c.reflectiontutorialtest;
 
-import cn.byhieg.reflectiontutorial.ExampleObject;
+import com.p.c.reflectiontutorial.ExampleObject;
 import junit.framework.TestCase;
 
 import java.lang.annotation.Annotation;
@@ -11,12 +11,12 @@ import java.lang.reflect.Modifier;
 
 /**
  * Created by shiqifeng on 2017/1/9.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class ExampleObjectTest extends TestCase {
 
     public void testReflect()throws Exception{
-        Class exampleObjectClass = Class.forName("cn.byhieg.reflectiontutorial.ExampleObject");
+        Class exampleObjectClass = Class.forName("com.p.c.reflectiontutorial.ExampleObject");
         //得到类的名字
         String fullClassName = exampleObjectClass.getName();
         String simpleClassName = exampleObjectClass.getSimpleName();
@@ -80,7 +80,7 @@ public class ExampleObjectTest extends TestCase {
         System.out.println(constructor.toString());
 
         Constructor constructor1 = exampleObjectClass.getConstructor(String.class);
-        System.out.println(constructor1.newInstance("byhieg"));
+        System.out.println(constructor1.newInstance("p"));
 
 
         //得到变量
@@ -91,7 +91,7 @@ public class ExampleObjectTest extends TestCase {
         Field field1 = exampleObjectClass.getField("age");
         System.out.println("变量为:" + field1.toString());
 
-        ExampleObject object = ((ExampleObject) constructor1.newInstance("byhieg"));
+        ExampleObject object = ((ExampleObject) constructor1.newInstance("p"));
         System.out.println("原先的age是 " + object.age);
         field1.set(object,10);
         System.out.println("更改之后的age是" + object.age);

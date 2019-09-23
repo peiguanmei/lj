@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 /**
- * Created by byhieg on 17/2/7.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/7.
+
  */
 public class ArrayListDemo {
 

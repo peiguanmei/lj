@@ -1,11 +1,11 @@
 package com.p.c.algorithmtutorialtest;
 
-import cn.byhieg.algorithmtutorial.Sort;
+import com.p.c.algorithmtutorial.Sort;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2017/3/28.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class SortTest extends TestCase {
     int [] nums;

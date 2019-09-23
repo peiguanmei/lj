@@ -5,8 +5,8 @@ import java.util.Arrays;
 import java.util.RandomAccess;
 
 /**
- * Created by byhieg on 17/2/7.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/7.
+
  */
 public class SimpleArrayList<E> implements RandomAccess,Cloneable,Serializable{
 

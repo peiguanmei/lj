@@ -2,11 +2,11 @@ package com.p.c.reflectiontutorial;
 
 /**
  * Created by shiqifeng on 2017/1/9.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class ExampleObject extends FatherObject {
     public int age = 30;
-    public String name = "byhieg";
+    public String name = "p";
     private Integer score = 60;
 
     public void printName() {

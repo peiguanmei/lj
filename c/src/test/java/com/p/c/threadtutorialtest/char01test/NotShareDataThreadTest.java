@@ -1,11 +1,11 @@
 package com.p.c.threadtutorialtest.char01test;
 
-import cn.byhieg.threadtutorial.char01.NotShareDataThread;
+import com.p.c.threadtutorial.char01.NotShareDataThread;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2016/12/27.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class NotShareDataThreadTest extends TestCase {
 

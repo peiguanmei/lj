@@ -1,12 +1,12 @@
 package com.p.c.annotationstutorialtest;
 
-import cn.byhieg.annotationstutorial.AMethodProcess;
-import cn.byhieg.annotationstutorial.User;
+import com.p.c.annotationstutorial.AMethodProcess;
+import com.p.c.annotationstutorial.User;
 import junit.framework.TestCase;
 
 /**
- * Created by byhieg on 17/2/14.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/14.
+
  */
 public class AMethodProcessTest extends TestCase {
     public void testInitMethod() throws Exception {

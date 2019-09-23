@@ -1,8 +1,8 @@
 package com.p.c.threadtutorial.char05.more2more.value;
 
 /**
- * Created by byhieg on 17/2/1.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/2/1.
+
  */
 public class Producer {
 

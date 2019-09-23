@@ -1,10 +1,10 @@
 package com.p.c.reflectiontutorial;
 
 /**
- * Created by byhieg on 17/1/9.
- * Mail to byhieg@gmail.com
+ * Created by p on 17/1/9.
+
  */
-@MyAnnotation(name="byhieg",value = "hello world")
+@MyAnnotation(name="p",value = "hello world")
 public class AnnotationObject {
 
     @MyAnnotation(name="field",value = "变量")

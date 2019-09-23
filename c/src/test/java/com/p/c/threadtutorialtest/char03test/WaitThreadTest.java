@@ -1,12 +1,12 @@
 package com.p.c.threadtutorialtest.char03test;
 
-import cn.byhieg.threadtutorial.char03.NotifyThread;
-import cn.byhieg.threadtutorial.char03.WaitThread;
+import com.p.c.threadtutorial.char03.NotifyThread;
+import com.p.c.threadtutorial.char03.WaitThread;
 import junit.framework.TestCase;
 
 /**
  * Created by shiqifeng on 2017/1/10.
- * Mail byhieg@gmail.com
+ * Mail p@gmail.com
  */
 public class WaitThreadTest extends TestCase {
 
